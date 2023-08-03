@@ -28,3 +28,4 @@ jobs:
         echo "Env var ${{ vars.ENV_VAR }}"
         echo "Env secrets syntax error ${{ secrets.ENV_SECROT }}"
         echo "Env secrets ${{ secrets.ENV_SECRET }}"
+        echo "Env local ${{ env.ENV_VAR_LOCAL }}"
