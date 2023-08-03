@@ -34,3 +34,5 @@ jobs:
       run: |
         echo "Hello ${{ inputs.name }}"
         echo "Env var ${{ vars.ENV_VAR }}"
+        echo "Env secrets syntax error ${{ secrets.ENV_SECROT }}"
+        echo "Env secrets ${{ secrets.ENV_SECRET }}"
